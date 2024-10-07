@@ -1,0 +1,9 @@
+a{
+    text-decoration: none;
+    color: black;
+    background: linear-gradient( to top left,orange, rgb(124, 17, 212));
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    gap: 5px;
+}
