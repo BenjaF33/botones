@@ -1,9 +1,51 @@
-a{
+#instagram{
     text-decoration: none;
     color: black;
     background: linear-gradient( to top left,orange, rgb(124, 17, 212));
     display: flex;
     width: fit-content;
+    height: 20px;
     align-items: center;
     gap: 5px;
+    border-radius: 5px;
+    transition: 400ms;
+}
+#instagram:hover{
+    opacity: 0.9;
+    scale: 1.1;
+}
+#wasap{
+    text-decoration: none;
+    color: black;
+    background: rgb(40, 240, 40);
+    transition: 400ms;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 5px;
+    width: fit-content;
+}
+#wasap:hover{
+    opacity: 0.5;
+    scale: 1.1;
+}
+#youtube{
+    text-decoration: none;
+    color: black;
+    background: red;
+    display: flex;
+    width: fit-content;
+    height: 20px;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+    transition: 400ms;  
+}
+#youtube:hover{
+    opacity: 0.7;
+    scale: 1.1;
+}
+nav{
+    display: flex;
+    gap: 10px;
 }
